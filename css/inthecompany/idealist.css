@@ -1,0 +1,48 @@
+/*--all--------------------------------------------------------------------------------------------------------------------------*/
+#all{background:url(../../images/common/bg_panlist_under.png) repeat-x;}
+#wrapper{width:980px; margin:0px auto; text-align:left;}
+#contents{background:url(../../images/common/bg_contents.gif) repeat left top; float:left; }
+
+
+/*--left--------------------------------------------------------------------------------------------------------------------------*/
+#area_left{width:240px; float:left;}
+#area_naviall{background:url(../../images/common/bg_navi.jpg) no-repeat; padding-top:30px;}
+#area_navi{margin:0px auto; width:220px; min-height:135px; background:url(../../images/inthecompany/navi_title.png) no-repeat;}
+#nabi_title a{text-indent:-9999px; display:block; height:35px; width:220px;}
+#area_navi #navi_menu{position:relative; height:93px; width:199px; background:url(../../images/inthecompany/navi_menu.png) no-repeat; margin:auto;}
+#area_navi #navi_menu li{position:absolute;}
+#area_navi #navi_menu li, #area_navi #navi_menu a{height:31px; display:block;}
+#area_navi #navi_menu a {text-indent:-9999px; text-decoration:none;}
+.navi01{top:0; width:199px;}
+.navi02 {top:31px; width:199px;}
+.navi03 {top:62px; width:199px;}
+.navi01 a:hover {background:url(../../images/inthecompany/navi_menu.png) -199px 0 no-repeat;}
+.navi02 a:hover {background:url(../../images/inthecompany/navi_menu.png) -199px -31px no-repeat;}
+.navi03 a:hover {background:url(../../images/inthecompany/navi_menu.png) -199px -62px no-repeat;}
+/*--right--------------------------------------------------------------------------------------------------------------------------*/
+#area_right{float:right; width:710px; padding-top:30px; padding-left:30px; padding-bottom:60px; background-color:#FFF; background-image:url(../../images/common/bg_panlist_under.png); background-repeat:repeat-x;}
+h2{background:url(../../images/inthecompany/idealist/h2.jpg) no-repeat; height:50px; text-indent:-9999px; margin-bottom:30px;}
+
+.area_idealink{margin-top:30px;}
+.area_idealink li{margin-bottom:20px;}
+.area_idealink .no-margin{margin-bottom:0px;}
+.btn_01 a{display:block; text-indent:-9999px; background:url(../../images/inthecompany/idealist/idea_katte_of.jpg) no-repeat; width:710px; height:65px;}
+.btn_01 a:hover{background:url(../../images/inthecompany/idealist/idea_katte_on.jpg) no-repeat; width:710px; height:65px;}
+.btn_02 a{display:block; text-indent:-9999px; background:url(../../images/inthecompany/idealist/idea_blog_of.jpg) no-repeat; width:710px; height:65px;}
+.btn_02 a:hover{background:url(../../images/inthecompany/idealist/idea_blog_on.jpg) no-repeat; width:710px; height:65px;}
+.btn_03 a{display:block; text-indent:-9999px; background:url(../../images/inthecompany/idealist/idea_bestsize_of.jpg) no-repeat; width:710px; height:65px;}
+.btn_03 a:hover{background:url(../../images/inthecompany/idealist/idea_bestsize_on.jpg) no-repeat; width:710px; height:65px;}
+.btn_04 a{display:block; text-indent:-9999px; background:url(../../images/inthecompany/idealist/idea_naming_of.jpg) no-repeat; width:710px; height:65px;}
+.btn_04 a:hover{background:url(../../images/inthecompany/idealist/idea_naming_on.jpg) no-repeat; width:710px; height:65px;}
+.btn_05 a{display:block; text-indent:-9999px; background:url(../../images/inthecompany/idealist/idea_bookmark_of.jpg) no-repeat; width:710px; height:65px;}
+.btn_05 a:hover{background:url(../../images/inthecompany/idealist/idea_bookmark_on.jpg) no-repeat; width:710px; height:65px;}
+.btn_06 a{display:block; text-indent:-9999px; background:url(../../images/inthecompany/idealist/idea_interview_of.jpg) no-repeat; width:710px; height:65px;}
+.btn_06 a:hover{background:url(../../images/inthecompany/idealist/idea_interview_on.jpg) no-repeat; width:710px; height:65px;}
+.btn_07 a{display:block; text-indent:-9999px; background:url(../../images/inthecompany/idealist/idea_babyvoice_of.jpg) no-repeat; width:710px; height:65px;}
+.btn_07 a:hover{background:url(../../images/inthecompany/idealist/idea_babyvoice_on.jpg) no-repeat; width:710px; height:65px;}
+.btn_08 a{display:block; text-indent:-9999px; background:url(../../images/inthecompany/idealist/idea_word_of.jpg) no-repeat; width:710px; height:65px;}
+.btn_08 a:hover{background:url(../../images/inthecompany/idealist/idea_word_on.jpg) no-repeat; width:710px; height:65px;}
+.btn_09 a{display:block; text-indent:-9999px; background:url(../../images/inthecompany/idealist/idea_gyoretsu_of.jpg) no-repeat; width:710px; height:65px;}
+.btn_09 a:hover{background:url(../../images/inthecompany/idealist/idea_gyoretsu_on.jpg) no-repeat; width:710px; height:65px;}
+.btn_10 a{display:block; text-indent:-9999px; background:url(../../images/inthecompany/idealist/idea_atode_of.jpg) no-repeat; width:710px; height:65px;}
+.btn_10 a:hover{background:url(../../images/inthecompany/idealist/idea_atode_on.jpg) no-repeat; width:710px; height:65px;}

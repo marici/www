@@ -1,0 +1,65 @@
+/*--all--------------------------------------------------------------------------------------------------------------------------*/
+#all{background:url(../../images/common/bg_panlist_under.png) repeat-x;}
+#wrapper{width:980px; margin:0px auto; text-align:left;}
+#contents{background:url(../../images/common/bg_contents.gif) repeat left top; float:left; }
+
+
+/*--left--------------------------------------------------------------------------------------------------------------------------*/
+#area_left{width:240px; float:left;}
+#area_naviall{background:url(../../images/common/bg_navi.jpg) no-repeat; padding-top:30px;}
+#area_navi{margin:0px auto; width:220px; min-height:135px; background:url(../../images/inthecompany/navi_title.png) no-repeat;}
+#nabi_title a{text-indent:-9999px; display:block; height:35px; width:220px;}
+#area_navi #navi_menu{position:relative; height:93px; width:199px; background:url(../../images/inthecompany/navi_menu.png) no-repeat; margin:auto;}
+#area_navi #navi_menu li{position:absolute;}
+#area_navi #navi_menu li, #area_navi #navi_menu a{height:31px; display:block;}
+#area_navi #navi_menu a {text-indent:-9999px; text-decoration:none;}
+.navi01{top:0; width:199px;}
+.navi02 {top:31px; width:199px;}
+.navi03 {top:62px; width:199px;}
+.navi01 a:hover {background:url(../../images/inthecompany/navi_menu.png) -199px 0 no-repeat;}
+.navi02 a:hover {background:url(../../images/inthecompany/navi_menu.png) -199px -31px no-repeat;}
+.navi03 a:hover {background:url(../../images/inthecompany/navi_menu.png) -199px -62px no-repeat;}
+/*--right--------------------------------------------------------------------------------------------------------------------------*/
+#area_right{float:right; width:710px; padding-top:30px; padding-left:30px; padding-bottom:60px; background-color:#FFF; background-image:url(../../images/common/bg_panlist_under.png); background-repeat:repeat-x;}
+h2{background:url(../../images/inthecompany/staff/h2.jpg) no-repeat; height:50px; text-indent:-9999px; margin-bottom:30px;}
+.title_l{background:url(../../images/common/title_l.jpg) no-repeat; height:48px;margin-bottom:30px;}
+h3{display:block;padding-left:30px; padding-top:17px;}
+.area_img{float:left;}
+.area_explanation{float:right;}
+table{width:420px; text-align:left;}
+tr{border-top:1px dotted #FF3300;}
+th{background:#ffdcbe; color:#F30; padding:10px; width:80px;}
+td{padding:10px;}
+.brd_btm{border-bottom:1px dotted #FF3300;}
+
+
+.outline{margin-top:30px; margin-bottom:30px;}
+.title_m{background:url(../../images/common/title_m.jpg) no-repeat; width:710px; height:30px; margin-bottom:20px;}
+h4{display:block;padding-left:10px; padding-top:7px;color:#FFF; font-weight:bold;}
+
+
+
+.works{margin-top:30px;}
+.parts_works{width:230px; background:#f8f8f8; margin-right:px; float:left; margin-right:10px; margin-bottom:10px;}
+.no-margin{margin-right:0px;}
+.parts{width:200px; margin:15px;}
+.parts_works p{margin-top:10px;}
+.parts_works p img{margin-left:10px;}
+.parts_works span{font-size:x-small;}
+
+
+
+.staff{margin-top:30px;}
+.title_s{background:url(../../images/common/title_s.jpg) no-repeat; width:710px; height:30px; margin-bottom:20px; margin-top:30px;}
+h5{display:block;padding-left:25px; padding-top:7px;color:#F30;font-weight:bold;}
+.parts_staff{width:100px; margin-right:15px; float:left;}
+.parts_staff span{font-size:x-small;}
+
+
+.blog ul{margin:0;}
+.blog li{background:url(../../images/common/icon_triangle.png) no-repeat; padding-left:15px; margin-right:10px; padding-bottom:10px; list-style:none; margin-bottom:10px; border-bottom:1px dotted #3c3c3c;}
+.blog li span{font-size:x-small;}
+
+
+
+.nextback{margin-top:30px;text-align:center;}

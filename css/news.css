@@ -1,0 +1,11 @@
+/*--all--------------------------------------------------------------------------------------------------------------------------*/
+#all{background:url(../images/common/bg_panlist_under.png) repeat-x;}
+#wrapper{width:980px; margin:0px auto; text-align:left; padding-top:30px; margin-bottom:60px;}
+#contents{}
+
+
+/*--contents--------------------------------------------------------------------------------------------------------------------------*/
+h2{background:url(../images/news/h2.jpg) no-repeat; height:50px; text-indent:-9999px; margin-bottom:30px;}
+#wrapper dl{background:#f8f8f8; padding:10px;border-bottom:1px dotted #3c3c3c;}
+#wrapper dt{background:url(../images/common/icon_triangle.png) no-repeat; padding-left:15px; list-style:none;font-size:x-small;}
+#wrapper .bg_white{background:#FFF;}
