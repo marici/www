@@ -126,7 +126,7 @@
                             </tr>
                         </table>
                         
-                        <div class="btn"><a href="javascript:$('#id_submit').click()"><img src="../images/contact/contactindex/btn.jpg"></a></div>
+                        <div class="btn"><a id="submitbutton" href="javascript:void(0)"><img src="../images/contact/contactindex/btn.jpg"></a></div>
 
                         <input type="hidden" name="stage" value="confirm" />
                         <div style="display:none">
@@ -208,6 +208,10 @@ $(function() {
         },
         stepValidation: true,
         scrollToErr: true
+    });
+    $('#submitbutton').click(function() {
+        $('#id_submit').click();
+        return false;
     });
 });
 </script>
