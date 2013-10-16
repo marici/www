@@ -1,0 +1,6 @@
+{
+    "Host": "smtp.gmail.com",
+    "Port": 587,
+    "UserName": "xxx@gmail.com",
+    "Password": ""
+}
