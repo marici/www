@@ -9,6 +9,10 @@
 <link href="../css/reset.css" rel="stylesheet" />
 <link href="../css/common.css" rel="stylesheet" />
 <link href="../css/contact/contactindex.css" rel="stylesheet" />
+<link href="../css/contact/exvalidation.css" rel="stylesheet" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="../js/plugins/exvalidation.min.js"></script>
+<script type="text/javascript" src="../js/plugins/exchecker-ja.min.js"></script>
 </head>
 
 <body>
@@ -61,19 +65,19 @@
 <table cellspacing="0" cellpadding="0">
                             <tr>
                                 <th scope="row">貴社名</th>
-                                <td><input type="text" name="corp" size="50" value=""><br><span class="f_small">例）株式会社マリーチ</span></td>
+                                <td><input type="text" id="corp" name="corp" size="50" value=""><br><span class="f_small">例）株式会社マリーチ</span></td>
                             </tr>
                             <tr>
                                 <th scope="row">部署</th>
-                                <td><input type="text" name="department" size="50" value=""><br><span class="f_small">例）営業部</span></td>
+                                <td><input type="text" id="department" name="department" size="50" value=""><br><span class="f_small">例）営業部</span></td>
                             </tr>
                             <tr>
                                 <th scope="row">役職</th>
-                                <td><input type="text" name="position" size="50" value=""><br><span class="f_small">例）部長</span></td>
+                                <td><input type="text" id="position" name="position" size="50" value=""><br><span class="f_small">例）部長</span></td>
                             </tr>
                             <tr>
                                 <th scope="row">事業内容</th>
-                                <td><select name="industry">
+                                <td><select id="industry" name="industry">
 <option value="事業内容を選択してください">事業内容を選択してください</option>
 <option value="電気・ガス業">電気・ガス業</option>
 <option value="運輸・情報通信">運輸・情報通信</option>
@@ -90,41 +94,44 @@
                             </tr>
                             <tr>
                                 <th scope="row">ご担当者様お名前<span class="f_orange">【必須】</span></th>
-                                <td><input type="text" name="name" size="50" value=""><br><span class="f_small">例）山田太郎</span></td>
+                                <td><input type="text" id="name" name="name" class="chkrequired" size="50" value=""><br><span class="f_small">例）山田太郎</span></td>
                             </tr>
                             <tr>
                                 <th scope="row">ご担当者様フリガナ</th>
-                                <td><input type="text" name="name_kana" size="50" value=""><span class="f_small">全角カナ<br>例）ヤマダタロウ</span></td>
+                                <td><input type="text" id="name_kana" name="name_kana" size="50" value=""><span class="f_small">全角カナ<br>例）ヤマダタロウ</span></td>
                             </tr>
                             <tr>
                                 <th scope="row">メールアドレス<span class="f_orange">【必須】</span></th>
-                                <td><input type="text" name="email" size="50" value=""><br><span class="f_small">例）e-mail@marici.co.jp</span></td>
+                                <td><input type="text" id="email" name="email" size="50" value=""><br><span class="f_small">例）e-mail@marici.co.jp</span></td>
                             </tr>
                             <tr>
                                 <th scope="row">貴社サイトURL</th>
-                                <td><input type="text" name="url" size="50" value=""><br><span class="f_small">例）http://www.marici.co.jp/</span></td>
+                                <td><input type="text" id="url" name="url" size="50" value=""><br><span class="f_small">例）http://www.marici.co.jp/</span></td>
                             </tr>
                             <tr>
                                 <th scope="row">ご住所</th>
-                                <td><span class="f_small">郵便番号<br>〒</span><input type="text" name="postal1" size="3" value="">-<input type="text" name="postal2" size="4" value=""><span class="f_small">半角7桁<br>住所</span><br><input type="text" name="address" size="50" value=""><br><span class="f_small">例）東京都豊島区南池袋2-47-6 パレス南池袋304</span></td>
+                                <td><span class="f_small">郵便番号<br>〒</span><input type="text" id="postal1" name="postal1" size="3" value="">-<input type="text" id="postal2" name="postal2" size="4" value=""><span class="f_small">半角7桁<br>住所</span><br><input type="text" id="address" name="address" size="50" value=""><br><span class="f_small">例）東京都豊島区南池袋2-47-6 パレス南池袋304</span></td>
                             </tr>
                             <tr>
                                 <th scope="row">電話番号</th>
-                                <td><input type="text" name="tel" size="50" value=""><span class="f_small">半角英数<br>例）03-6907-1138</span></td>
+                                <td><input type="text" id="tel" name="tel" size="50" value=""><span class="f_small">半角英数<br>例）03-6907-1138</span></td>
                             </tr>
                             <tr>
                                 <th scope="row">FAX番号</th>
-                                <td><input type="text" name="fax" size="50" value=""><span class="f_small">半角英数<br>例）03-4333-0282</span></td>
+                                <td><input type="text" id="fax" name="fax" size="50" value=""><span class="f_small">半角英数<br>例）03-4333-0282</span></td>
                             </tr>
                             <tr class="brd_btm">
                                 <th scope="row">お問い合わせ内容<span class="f_orange">【必須】</span></th>
-                                <td><textarea name="content" cols="50" rows="10"></textarea></td>
+                                <td><textarea id="content" name="content" cols="50" rows="10"></textarea></td>
                             </tr>
                         </table>
                         
-                        <div class="btn"><a href="javascript:document.forms[0].submit()"><img src="../images/contact/contactindex/btn.jpg"></a></div>
+                        <div class="btn"><a href="javascript:$('#id_submit').click()"><img src="../images/contact/contactindex/btn.jpg"></a></div>
 
                         <input type="hidden" name="stage" value="confirm" />
+                        <div style="display:none">
+                          <input id="id_submit" type="submit" value="OK" />
+                      </div>
                       </form>
 
 
@@ -190,5 +197,19 @@
 <!--common--------------------------------------------------------------------------------------------------------->
 
 </div>
+<script type="text/javascript">
+$(function() {
+    $('form').exValidation({
+        rules: {
+            name: 'chkrequired',
+            email: 'chkrequired chkemail',
+            url: 'chkurl',
+            content: 'chkrequired'
+        },
+        stepValidation: true,
+        scrollToErr: true
+    });
+});
+</script>
 </body>
 </html>
