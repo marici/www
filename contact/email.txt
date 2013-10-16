@@ -1,0 +1,18 @@
+From: {{.From}}
+To: {{.To}}
+Subject: {{.Subject}}
+MIME-version: 1.0
+Content-Type: text/plain; charset="UTF-8"
+
+会社名: {{.Data.corp}}
+部署名: {{.Data.department}}
+役職: {{.Data.position}}
+事業内容: {{.Data.industry}}
+名前: {{.Data.name}}
+フリガナ: {{.Data.name_kana}}
+メールアドレス: {{.Data.email}}
+URL: {{.Data.url}}
+住所: {{.Data.postal1}}-{{.Data.postal2}} {{.Data.address}}
+電話番号: {{.Data.tel}}
+FAX番号: {{.Data.fax}}
+問い合わせ内容: {{.Data.content}}

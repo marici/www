@@ -33,7 +33,7 @@
             <li class="menu01"><a href="../about/index.html">マリーチについて</a></li>
             <li class="menu02"><a href="../forclients/index.html">私たちのしごと</a></li>
             <li class="menu03"><a href="../inthecompany/index.html">私たちのこと</a></li>
-            <li class="menu04"><a href="../recruit/index.html">スタッフ募集</a></li>            <li class="menu05"><a href="http://www.marici.co.jp/o/contact-info" target="_blank">お問い合わせ</a></li>
+            <li class="menu04"><a href="../recruit/index.html">スタッフ募集</a></li>            <li class="menu05"><a href="../contact/contactindex.html" target="_blank">お問い合わせ</a></li>
 </ul>
     </div>
 </div>
@@ -53,64 +53,76 @@
 
 
 <div class="img_stage"><img src="../images/contact/check/img_stage.jpg"></div>
-
+<form action="./contact.cgi" method="POST">
 <table cellspacing="0" cellpadding="0">
                             <tr>
                                 <th scope="row">貴社名</th>
-                                <td>株式会社マリーチ</td>
+                                <td>{{html .corp}}</td>
                             </tr>
                             <tr>
                                 <th scope="row">部署</th>
-                                <td>営業部</td>
+                                <td>{{html .department}}</td>
                             </tr>
                             <tr>
                                 <th scope="row">役職</th>
-                                <td>部長</td>
+                                <td>{{html .position}}</td>
                             </tr>
                             <tr>
                                 <th scope="row">事業内容</th>
-                                <td>運輸・情報通信</td>
+                                <td>{{html .industry}}</td>
                             </tr>
                             <tr>
                                 <th scope="row">ご担当者様お名前<span class="f_orange">【必須】</span></th>
-                                <td>山田太郎</td>
+                                <td>{{html .name}}</td>
                             </tr>
                             <tr>
                                 <th scope="row">ご担当者様フリガナ</th>
-                                <td>ヤマダタロウ</td>
+                                <td>{{html .name_kana}}</td>
                             </tr>
                             <tr>
                                 <th scope="row">メールアドレス<span class="f_orange">【必須】</span></th>
-                                <td>e-mail@marici.co.jp</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">確認用メールアドレス<span class="f_orange">【必須】</span></th>
-                                <td>e-mail@marici.co.jp</td>
+                                <td>{{html .email}}</td>
                             </tr>
                             <tr>
                                 <th scope="row">貴社サイトURL</th>
-                                <td>http://www.marici.co.jp/</td>
+                                <td>{{html .url}}</td>
                             </tr>
                             <tr>
                                 <th scope="row">ご住所</th>
-                                <td>東京都豊島区南池袋2-47-6 パレス南池袋304</td>
+                                <td>{{html .postal1}}-{{.postal2}} {{.address}} {{.address}}</td>
                             </tr>
                             <tr>
                                 <th scope="row">電話番号</th>
-                                <td>03-6907-1138</td>
+                                <td>{{html .tel}}</td>
                             </tr>
                             <tr>
                                 <th scope="row">FAX番号</th>
-                                <td>03-4333-0282</td>
+                                <td>{{html .fax}}</td>
                             </tr>
                             <tr class="brd_btm">
                                 <th scope="row">お問い合わせ内容<span class="f_orange">【必須】</span></th>
-                                <td>お問い合わせ内容テキスト</td>
+                                <td>{{html .content}}</td>
                             </tr>
                         </table>
-                        
-                        <div class="btn"><a href="contactindex.html"><img src="../images/contact/check/btn_correction.jpg"></a><a href="send.html"><img src="../images/contact/check/btn_send.jpg"></a></div>
 
+                        <input type="hidden" name="corp" value="{{html .corp}}"/>
+                        <input type="hidden" name="department" value="{{html .department}}"/>
+                        <input type="hidden" name="position" value="{{html .position}}"/>
+                        <input type="hidden" name="industry" value="{{html .industry}}"/>
+                        <input type="hidden" name="name" value="{{html .name}}"/>
+                        <input type="hidden" name="name_kana" value="{{html .name_kana}}"/>
+                        <input type="hidden" name="email" value="{{html .email}}"/>
+                        <input type="hidden" name="url" value="{{html .url}}"/>
+                        <input type="hidden" name="postal1" value="{{html .postal1}}"/>
+                        <input type="hidden" name="postal2" value="{{html .postal2}}"/>
+                        <input type="hidden" name="address" value="{{html .address}}"/>
+                        <input type="hidden" name="tel" value="{{html .tel}}"/>
+                        <input type="hidden" name="fax" value="{{html .fax}}"/>
+                        <input type="hidden" name="content" value="{{html .content}}"/>
+
+                        <div class="btn"><a href="javascript:history.back()"><img src="../images/contact/check/btn_correction.jpg"></a><a href="javascript:document.forms[0].submit()"><img src="../images/contact/check/btn_send.jpg"></a></div>
+
+                      </form>
 
 
 
@@ -157,7 +169,7 @@
                 <dd>┗<!--a href="../recruit/faq.html"-->よくあるご質問<!--/a--></dd>
             </dl>
             <dl class="no_margin">
-                <dt class="f_menu06"><a href="http://www.marici.co.jp/o/contact-info" target="_blank">お問い合わせ</a></dt>
+                <dt class="f_menu06"><a href="../contact/contactindex.html" target="_blank">お問い合わせ</a></dt>
                 <dd></dd>
             </dl>
             <div class="clear"></div>

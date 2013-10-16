@@ -33,7 +33,7 @@
             <li class="menu01"><a href="../about/index.html">マリーチについて</a></li>
             <li class="menu02"><a href="../forclients/index.html">私たちのしごと</a></li>
             <li class="menu03"><a href="../inthecompany/index.html">私たちのこと</a></li>
-            <li class="menu04"><a href="../recruit/index.html">スタッフ募集</a></li>            <li class="menu05"><a href="http://www.marici.co.jp/o/contact-info" target="_blank">お問い合わせ</a></li>
+            <li class="menu04"><a href="../recruit/index.html">スタッフ募集</a></li>            <li class="menu05"><a href="../contact/contactindex.html" target="_blank">お問い合わせ</a></li>
 </ul>
     </div>
 </div>
@@ -57,23 +57,23 @@
 また、個人情報の取り扱いについては、<a href="../privacypolicy/privacypolicy.html" target="_blank">こちら</a>をご覧ください。</p>
 
 <div class="img_stage"><img src="../images/contact/contactindex/img_stage.jpg"></div>
-
+<form action="./contact.cgi" method="POST">
 <table cellspacing="0" cellpadding="0">
                             <tr>
                                 <th scope="row">貴社名</th>
-                                <td><input type="text" name="" size="50" value=""><br><span class="f_small">例）株式会社マリーチ</span></td>
+                                <td><input type="text" name="corp" size="50" value=""><br><span class="f_small">例）株式会社マリーチ</span></td>
                             </tr>
                             <tr>
                                 <th scope="row">部署</th>
-                                <td><input type="text" name="" size="50" value=""><br><span class="f_small">例）営業部</span></td>
+                                <td><input type="text" name="department" size="50" value=""><br><span class="f_small">例）営業部</span></td>
                             </tr>
                             <tr>
                                 <th scope="row">役職</th>
-                                <td><input type="text" name="" size="50" value=""><br><span class="f_small">例）部長</span></td>
+                                <td><input type="text" name="position" size="50" value=""><br><span class="f_small">例）部長</span></td>
                             </tr>
                             <tr>
                                 <th scope="row">事業内容</th>
-                                <td><select name="example">
+                                <td><select name="industry">
 <option value="事業内容を選択してください">事業内容を選択してください</option>
 <option value="電気・ガス業">電気・ガス業</option>
 <option value="運輸・情報通信">運輸・情報通信</option>
@@ -90,43 +90,42 @@
                             </tr>
                             <tr>
                                 <th scope="row">ご担当者様お名前<span class="f_orange">【必須】</span></th>
-                                <td><input type="text" name="" size="50" value=""><br><span class="f_small">例）山田太郎</span></td>
+                                <td><input type="text" name="name" size="50" value=""><br><span class="f_small">例）山田太郎</span></td>
                             </tr>
                             <tr>
                                 <th scope="row">ご担当者様フリガナ</th>
-                                <td><input type="text" name="" size="50" value=""><span class="f_small">全角カナ<br>例）ヤマダタロウ</span></td>
+                                <td><input type="text" name="name_kana" size="50" value=""><span class="f_small">全角カナ<br>例）ヤマダタロウ</span></td>
                             </tr>
                             <tr>
                                 <th scope="row">メールアドレス<span class="f_orange">【必須】</span></th>
-                                <td><input type="text" name="" size="50" value=""><br><span class="f_small">例）e-mail@marici.co.jp</span></td>
-                            </tr>
-                            <tr>
-                                <th scope="row">確認用メールアドレス<span class="f_orange">【必須】</span></th>
-                                <td><input type="text" name="" size="50" value=""><br><span class="f_small">※確認のため再度ご入力願います。</span></td>
+                                <td><input type="text" name="email" size="50" value=""><br><span class="f_small">例）e-mail@marici.co.jp</span></td>
                             </tr>
                             <tr>
                                 <th scope="row">貴社サイトURL</th>
-                                <td><input type="text" name="" size="50" value=""><br><span class="f_small">例）http://www.marici.co.jp/</span></td>
+                                <td><input type="text" name="url" size="50" value=""><br><span class="f_small">例）http://www.marici.co.jp/</span></td>
                             </tr>
                             <tr>
                                 <th scope="row">ご住所</th>
-                                <td><span class="f_small">郵便番号<br>〒</span><input type="text" name="" size="20" value="">-<input type="text" name="" size="30" value=""><span class="f_small">半角7桁<br>住所</span><br><input type="text" name="" size="50" value=""><br><span class="f_small">例）東京都豊島区南池袋2-47-6 パレス南池袋304</span></td>
+                                <td><span class="f_small">郵便番号<br>〒</span><input type="text" name="postal1" size="3" value="">-<input type="text" name="postal2" size="4" value=""><span class="f_small">半角7桁<br>住所</span><br><input type="text" name="address" size="50" value=""><br><span class="f_small">例）東京都豊島区南池袋2-47-6 パレス南池袋304</span></td>
                             </tr>
                             <tr>
                                 <th scope="row">電話番号</th>
-                                <td><input type="text" name="" size="50" value=""><span class="f_small">半角英数<br>例）03-6907-1138</span></td>
+                                <td><input type="text" name="tel" size="50" value=""><span class="f_small">半角英数<br>例）03-6907-1138</span></td>
                             </tr>
                             <tr>
                                 <th scope="row">FAX番号</th>
-                                <td><input type="text" name="" size="50" value=""><span class="f_small">半角英数<br>例）03-4333-0282</span></td>
+                                <td><input type="text" name="fax" size="50" value=""><span class="f_small">半角英数<br>例）03-4333-0282</span></td>
                             </tr>
                             <tr class="brd_btm">
                                 <th scope="row">お問い合わせ内容<span class="f_orange">【必須】</span></th>
-                                <td><textarea name="example" cols="50" rows="10"></textarea></td>
+                                <td><textarea name="content" cols="50" rows="10"></textarea></td>
                             </tr>
                         </table>
                         
-                        <div class="btn"><a href="check.html"><img src="../images/contact/contactindex/btn.jpg"></a></div>
+                        <div class="btn"><a href="javascript:document.forms[0].submit()"><img src="../images/contact/contactindex/btn.jpg"></a></div>
+
+                        <input type="hidden" name="stage" value="confirm" />
+                      </form>
 
 
 
@@ -174,7 +173,7 @@
                 <dd>┗<!--a href="../recruit/faq.html"-->よくあるご質問<!--/a--></dd>
             </dl>
             <dl class="no_margin">
-                <dt class="f_menu06"><a href="http://www.marici.co.jp/o/contact-info" target="_blank">お問い合わせ</a></dt>
+                <dt class="f_menu06"><a href="../contact/contactindex.html" target="_blank">お問い合わせ</a></dt>
                 <dd></dd>
             </dl>
             <div class="clear"></div>
