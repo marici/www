@@ -26,7 +26,8 @@ h3{display:block;padding-left:30px; padding-top:17px;}
 .title_m{background:url(../../images/common/title_m.jpg) no-repeat; width:710px; height:30px; margin-bottom:20px;}
 h4{display:block;padding-left:10px; padding-top:7px;color:#FFF; font-weight:bold;}
 
-.logo_service{float:left; margin-right:15px; width:135px; height:65px; margin-bottom:30px;}
+.logo_service{float:left; margin-right:15px; width:135px; margin-bottom:30px;}
+.demo_image{float:left; margin-right:15px; width:400px; margin-bottom:30px;}
 
 .ex{background-color:#f8f8f8; width:710px; margin:15px 0;}
 .ex ul{padding:15px;}
