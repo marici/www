@@ -1,3 +1,5 @@
+p{line-height:1.3em;}
+
 /*--slide--------------------------------------------------------------------------------------------------------------------------*/
 #area_slideall{background:url(../images/top/bg_slide.jpg) repeat-x; height:374px;}
 #area_slide{width:980px; margin:0px auto;}
@@ -34,4 +36,4 @@ iframe{margin:0 auto 20px 25px;}
 /*--bnr--------------------------------------------------------------------------------------------------------------------------*/
 #area_bnr{margin-top:30px;}
 .left_bnr{float:left;}
-.right_bnr{float:right;}
+.margin_r_20{margin-right:20px;}
