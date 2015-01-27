@@ -19,6 +19,8 @@
 .navi01 a:hover {background:url(../../images/recruit/navi_menu.png) -199px 0 no-repeat;}
 .navi02 a:hover {background:url(../../images/recruit/navi_menu.png) -199px -31px no-repeat;}
 .navi03 a:hover {background:url(../../images/recruit/navi_menu.png) -199px -62px no-repeat;}
+
+
 /*--right--------------------------------------------------------------------------------------------------------------------------*/
 #area_right{float:right; width:710px; padding-top:30px; padding-left:30px; padding-bottom:60px; background-color:#FFF; background-image:url(../../images/common/bg_panlist_under.png); background-repeat:repeat-x;}
 h2{background:url(../../images/recruit/interview/h2.jpg) no-repeat; height:50px; text-indent:-9999px; margin-bottom:30px;}
