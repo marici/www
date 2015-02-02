@@ -29,6 +29,7 @@
 /*--right--------------------------------------------------------------------------------------------------------------------------*/
 #area_right{float:right; width:710px; padding-top:30px; padding-left:30px; padding-bottom:60px; background-color:#FFF; background-image:url(../../images/common/bg_panlist_under.png); background-repeat:repeat-x;}
 h2{background:url(../../images/about/access/h2.jpg) no-repeat; height:50px; text-indent:-9999px; margin-bottom:30px;}
+h3{display:block;padding-left:30px; padding-top:17px;}
 .title_l{background:url(../../images/common/title_l.jpg) no-repeat; height:48px;margin-bottom:30px;}
 .title_m{background:url(../../images/common/title_m.jpg) no-repeat; width:710px; height:30px; margin-bottom:15px;}
 h4{display:block;padding-left:10px; padding-top:7px;color:#FFF; font-weight:bold;}
