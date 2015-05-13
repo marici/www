@@ -15,8 +15,10 @@
 #area_navi #navi_menu a {text-indent:-9999px; text-decoration:none;}
 .navi01{top:0; width:199px;}
 .navi02 {top:31px; width:199px;}
+.navi03 {top:62px; width:199px;}
 .navi01 a:hover {background:url(../../images/inthecompany/navi_menu.png) -199px 0 no-repeat;}
 .navi02 a:hover {background:url(../../images/inthecompany/navi_menu.png) -199px -31px no-repeat;}
+.navi03 a:hover {background:url(../../images/inthecompany/navi_menu.png) -199px -62px no-repeat;}
 /*--right--------------------------------------------------------------------------------------------------------------------------*/
 #area_right{float:right; width:710px; padding-top:30px; padding-left:30px; padding-bottom:60px; background-color:#FFF; background-image:url(../../images/common/bg_panlist_under.png); background-repeat:repeat-x;}
 h2{background:url(../../images/inthecompany/cloud/h2.jpg) no-repeat; height:50px; text-indent:-9999px; margin-bottom:30px;}

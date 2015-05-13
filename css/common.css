@@ -15,6 +15,7 @@ a:hover{color:#F30;}
 .f_bold{font-weight:bold;}
 .t_center{text-align:center;}
 .f_underline{text-decoration:underline;}
+.letter_sp{letter-spacing:-0.2em;}
 /*float------------------------------------------------------------------------*/
 .clear{clear:both;}
 .f_left{float:left;}
@@ -23,7 +24,7 @@ a:hover{color:#F30;}
 
 /*margin------------------------------------------------------------------------*/
 .m_top80{margin-top:80px;}
-
+.m_btm20{margin-bottom:20px;}
 
 
 
