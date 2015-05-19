@@ -23,24 +23,24 @@
 
 /*--right--------------------------------------------------------------------------------------------------------------------------*/
 #area_right{float:right; width:710px; padding-top:30px; padding-left:30px; padding-bottom:60px; background-color:#FFF; background-image:url(../../images/common/bg_panlist_under.png); background-repeat:repeat-x;}
-h2{background:url(../../images/inthecompany/analytics/h2.jpg) no-repeat; height:50px; text-indent:-9999px; margin-bottom:30px;}
+h2{background:url(../../images/inthecompany/analytics2/h2.jpg) no-repeat; height:50px; text-indent:-9999px; margin-bottom:30px;}
 
 
-#area_main_img{background:url(../../images/inthecompany/analytics/img_main.jpg) no-repeat; width:710px; height:567px;}
+#area_main_img{background:url(../../images/inthecompany/analytics2/img_main.jpg) no-repeat; width:710px; height:567px;}
 #area_main_img h3,#area_main_img p{display:none;}
 ul{width:355x;}
-.qa_txt_l{background:url(../../images/inthecompany/analytics/img_bg_l.jpg) repeat-y; padding-top:20px;}
-.qa_txt_r{background:url(../../images/inthecompany/analytics/img_bg_r.jpg) repeat-y; padding-top:20px;}
+.qa_txt_l{background:url(../../images/inthecompany/analytics2/img_bg_l.jpg) repeat-y; padding-top:20px;}
+.qa_txt_r{background:url(../../images/inthecompany/analytics2/img_bg_r.jpg) repeat-y; padding-top:20px;}
 .qa_txt_l p{display:block; width:270px; margin-left:40px; min-height:130px;}
 .qa_txt_r p{display:block; width:270px; margin-left:50px; min-height:130px;}
-#qa1{background:url(../../images/inthecompany/analytics/img_01.jpg) no-repeat; width:355px; height:431px; text-indent:-9999px;}
-#qa2{background:url(../../images/inthecompany/analytics/img_02.jpg) no-repeat; width:355px; height:431px; text-indent:-9999px;}
-#qa3{background:url(../../images/inthecompany/analytics/img_03.jpg) no-repeat; width:355px; height:445px; text-indent:-9999px;}
-#qa4{background:url(../../images/inthecompany/analytics/img_04.jpg) no-repeat; width:355px; height:445px; text-indent:-9999px;}
-#area_img_txt{clear:both; background:url(../../images/inthecompany/analytics/img_txt.jpg) no-repeat; width:710px; height:165px; text-indent:-9999px;}
-#txt_saport{display:block; margin:40px auto; padding:20px; border-top:1px dotted #3c3c3c; border-bottom:1px dotted #3c3c3c; font-size:x-large; font-weight:bold; text-align:center; line-height:1.6em;}
+#qa1{background:url(../../images/inthecompany/analytics2/img_01.jpg) no-repeat; width:355px; height:431px; text-indent:-9999px;}
+#qa2{background:url(../../images/inthecompany/analytics2/img_02.jpg) no-repeat; width:355px; height:431px; text-indent:-9999px;}
+#qa3{background:url(../../images/inthecompany/analytics2/img_03.jpg) no-repeat; width:355px; height:445px; text-indent:-9999px;}
+#qa4{background:url(../../images/inthecompany/analytics2/img_04.jpg) no-repeat; width:355px; height:445px; text-indent:-9999px;}
+#txt_saport{clear:both; display:block; font-size:x-large; font-weight:bold; text-align:center; line-height:1.6em; margin:20px auto; padding-top:20px;}
+#txt_saport .f_nomal{font-weight:normal; font-size:80%;}
 #txt_saport .waca_link{display:block; text-align:right; font-size:x-small;}
 #btn{margin-left:85px;}
-#btn a{background:url(../../images/inthecompany/analytics/btn_of.jpg) no-repeat; text-indent:-9999px;display:block; width:536px; height:99px;}
-#btn a:hover{background:url(../../images/inthecompany/analytics/btn_on.jpg) no-repeat;}
+#btn a{background:url(../../images/inthecompany/analytics2/btn_of.jpg) no-repeat; text-indent:-9999px;display:block; width:536px; height:99px;}
+#btn a:hover{background:url(../../images/inthecompany/analytics2/btn_on.jpg) no-repeat;}
 #bnr{ text-align:center; margin-top:20px;}
