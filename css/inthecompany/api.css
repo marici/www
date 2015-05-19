@@ -9,7 +9,7 @@
 #area_naviall{background:url(../../images/common/bg_navi.jpg) no-repeat; padding-top:30px;}
 #area_navi{margin:0px auto; width:220px; min-height:135px; background:url(../../images/inthecompany/navi_title.png) no-repeat;}
 #nabi_title a{text-indent:-9999px; display:block; height:35px; width:220px;}
-#area_navi #navi_menu{position:relative; height:93px; width:199px; background:url(../../images/inthecompany/navi_menu.png) no-repeat; margin:auto;}
+#area_navi #navi_menu{position:relative; height:124px; width:199px; background:url(../../images/inthecompany/navi_menu.png) no-repeat; margin:auto;}
 #area_navi #navi_menu li{position:absolute;}
 #area_navi #navi_menu li, #area_navi #navi_menu a{height:31px; display:block;}
 #area_navi #navi_menu a {text-indent:-9999px; text-decoration:none;}
