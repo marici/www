@@ -1,0 +1,39 @@
+/*body*/
+body{background-color:#ffffff;}
+/*menu*/
+.slicknav_menu {display:none;}
+/*Media Queries*/
+@media screen and (max-width: 9999px) {.js #menu {display:none;}.js .slicknav_menu {display:block;}
+#menu_all{ border-bottom:4px solid #e27016;}
+
+/*other*/
+.max_img {max-width:100%;}
+.f_left{float:left;}
+.f_right{float:right;}
+.mrg_r_10{margin-right:10px;}
+.mrg_btm_10{margin-bottom:10px;}
+.clear{clear:both;}
+
+
+/*other_font*/
+a{text-decoration:none; color:#3c3c3c;}
+*{line-height:1.6em;}
+.f_small{font-size:small;}
+.f_bold{font-weight:bold;}
+.txt_center{text-align:center;}
+
+h1{display:block; position:absolute; top:14px; left:14px; }
+
+/*footer*/
+footer{background:#e27016; color:#ffffff;}
+footer a{color:#ffffff;}
+footer #foot{margin:0px auto; max-width:90%; padding-top:20px; padding-bottom:20px;}
+footer #foot #navi{text-align:center; margin-bottom:20px; font-size:small;}
+footer #foot #add{ margin-bottom:20px;}
+footer #foot .btn_tel a{display:block; background-color:#dd4b13; color:#ffffff; padding:20px; text-align:center; margin-bottom:20px;}
+footer #foot .btn_pc{margin:0px auto; text-align:center;  max-width:50%;}
+footer #foot .btn_pc a{display:block; background-color:#dd4b13; color:#ffffff; padding:10px; margin-bottom:20px; font-size:small;}
+footer #foot #copy{font-size:x-small; text-align:center;}
+
+/*gotop*/
+#page-top{max-width:95%; text-align:right; margin-top:20px;}
