@@ -1,0 +1,6 @@
+#contents{margin:20px auto; max-width:90%;}
+#contents #img_main{text-align:center; margin-bottom:20px;}
+#contents p{margin-bottom:20px;}
+#contents p a{text-decoration:underline; color:red;}
+#contents #btn_service{margin:10px auto 20px auto; text-align:center;  max-width:100%;}
+#contents #btn_service a{display:block; background-color:#dd4b13; color:#ffffff; padding:10px; margin-bottom:20px; font-size:small;}

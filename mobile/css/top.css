@@ -5,7 +5,7 @@
 #contents{ margin:20px auto; max-width:90%;}
 
 /*news*/
-#news{margin-top:20px;}
+#news{margin-top:20px; text-align:left;}
 #news h2{display:block; background-color:#e1690e; color:#ffffff; padding:20px; margin-top:10px;}
 #news li{display:block; background:#E2E2E2; padding:20px; border-bottom:2px solid #ffffff;}
 #news li a{ display:block; text-decoration:underline;}
@@ -23,4 +23,4 @@
     line-height: 0;  
     clear: both;  
 }  
-
+#btn_form{margin:0px auto; text-align:center;}
