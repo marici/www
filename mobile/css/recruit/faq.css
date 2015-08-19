@@ -1,0 +1,8 @@
+#contents{margin:20px auto; max-width:90%; text-align:left;}
+#contents p{margin-bottom:20px;}
+#contents ul{}
+#contents li {padding:10px;}
+#contents li a{text-decoration:underline;}
+#contents li:nth-child(2n+1)/*奇数のみ装飾*/{color:#ff0000; padding-bottom:0;}
+#contents li:nth-child(2n)/*偶数のみ装飾*/{ border-bottom:1px dotted #A7A7A7; padding-bottom:20px;}
+.bg_gray{background:#EFEFEF;}

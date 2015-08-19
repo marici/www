@@ -1,0 +1,14 @@
+#contents{margin:20px auto; max-width:90%; text-align:left;}
+#contents h3{display:block; border:none;margin-bottom:10px; font-weight:bold; background-color:#fff; padding:0px;}
+
+#contents p img{ display:block; float:right; margin-top:20px;}
+
+#contents:after   {  
+    content: ".";  
+    display: block;  
+    visibility: hidden;  
+    height: 0.1px;  
+    font-size: 0.1em;  
+    line-height: 0;  
+    clear: both;  
+}  

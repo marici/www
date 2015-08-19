@@ -3,7 +3,7 @@ body{background-color:#ffffff; line-height:1.4em; font-size:small;}
 #all{ margin: 0 auto;}
 #wrappar{}
 #contents{}
-
+p{line-height:2em;}
 /*font------------------------------------------------------------------------*/
 body{color:#3c3c3c;}
 a:link{color:#3c3c3c;}
@@ -12,15 +12,20 @@ a:hover{color:#F30;}
 .f_large{font-size:medium;}
 .f_small{font-size:x-small;}
 .f_orange{color:#F30;}
+.f_blue{color:#245aa3;}
 .f_bold{font-weight:bold;}
-
+.t_center{text-align:center;}
+.f_underline{text-decoration:underline;}
+.letter_sp{letter-spacing:-0.2em;}
 /*float------------------------------------------------------------------------*/
 .clear{clear:both;}
 .f_left{float:left;}
 .f_right{float:right;}
 
 
-
+/*margin------------------------------------------------------------------------*/
+.m_top80{margin-top:80px;}
+.m_btm20{margin-bottom:20px;}
 
 
 
@@ -55,6 +60,13 @@ header h1 a{ display:block; width:257px; height:51px; text-indent:-9999px;}
 .menu03 a:hover {background:url(../images/common/menu.png) -393px -60px no-repeat;}
 .menu04 a:hover {background:url(../images/common/menu.png) -588px -60px no-repeat;}	
 .menu05 a:hover {background:url(../images/common/menu.png) -785px -60px no-repeat;}	
+.menu01_stay {background:url(../images/common/menu.png) 0 -60px no-repeat; width:197px; text-indent:-9999px; margin-left:0px;}
+.menu02_stay {background:url(../images/common/menu.png) -196px -60px no-repeat; width:197px; text-indent:-9999px; margin-left:196px;}
+.menu03_stay {background:url(../images/common/menu.png) -393px -60px no-repeat; width:197px; text-indent:-9999px; margin-left:393px;}
+.menu04_stay {background:url(../images/common/menu.png) -588px -60px no-repeat; width:197px; text-indent:-9999px; margin-left:588px;}
+.menu05_stay {background:url(../images/common/menu.png) -785px -60px no-repeat; width:197px; text-indent:-9999px; margin-left:785px;}
+
+
 
 /*--footer_gotop--------------------------------------------------------------------------------------------------------------------------*/
 #area_gotopall{background:url(../images/common/bg_footer_gotop.gif) repeat; height:18px;}

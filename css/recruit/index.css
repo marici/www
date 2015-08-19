@@ -19,19 +19,23 @@
 .navi01 a:hover {background:url(../../images/recruit/navi_menu.png) -199px 0 no-repeat;}
 .navi02 a:hover {background:url(../../images/recruit/navi_menu.png) -199px -31px no-repeat;}
 .navi03 a:hover {background:url(../../images/recruit/navi_menu.png) -199px -62px no-repeat;}
-
-
 /*--right--------------------------------------------------------------------------------------------------------------------------*/
 #area_right{float:right; width:710px; padding-top:30px; padding-left:30px; padding-bottom:60px; background-color:#FFF; background-image:url(../../images/common/bg_panlist_under.png); background-repeat:repeat-x;}
-h2{background:url(../../images/recruit/h2.jpg) no-repeat; height:50px; text-indent:-9999px; margin-bottom:30px;}
+h2{background:url(../../images/recruit/adoptioninformation/h2.jpg) no-repeat; height:50px; text-indent:-9999px; margin-bottom:30px;}
+.title_l{background:url(../../images/common/title_l.jpg) no-repeat; height:48px;margin-bottom:30px;}
+.p_margin{margin-bottom:30px;}
 
 .title_l{background:url(../../images/common/title_l.jpg) no-repeat; height:48px;margin-bottom:20px;}
 h3{display:block;padding-left:30px; padding-top:17px;}
-.p_margin{margin-bottom:30px;}
 
-.title_m{background:url(../../images/common/title_m.jpg) no-repeat; width:710px; height:30px; margin-bottom:15px;}
-.title_m2{background:url(../../images/common/title_m.jpg) no-repeat; width:710px; height:30px; margin-bottom:15px; margin-top:20px;}
-h4{display:block;padding-left:10px; padding-top:7px;color:#FFF; font-weight:bold; }
-.title_m a, .title_m2 a{color:#FFF;}
+table{width:710px; text-align:left}
+tr{border-top:1px dotted #FF3300;}
+th{background:#ffdcbe; color:#F30; padding:10px; width:100px;}
+td{padding:10px;}
+.brd_btm{border-bottom:1px dotted #FF3300;}
+.title_m{background:url(../../images/common/title_m.jpg) no-repeat; width:710px; height:30px;}
+.title_m2{background:url(../../images/common/title_m.jpg) no-repeat; width:710px; height:30px; margin-top:30px;}
+h4{display:block;padding-left:10px; padding-top:7px;color:#FFF; font-weight:bold;}
 
-
+table dd{padding-left:15px; background:url(../../images/common/icon_triangle.png) no-repeat;}
+.btm_margin{margin-bottom:5px;}

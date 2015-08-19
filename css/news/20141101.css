@@ -1,0 +1,41 @@
+.topimg{background:url(../../images/news/20141101/img_top.jpg) no-repeat; width:980px; height:333px; position:relative;}
+.btn_touroku{display:block; position:absolute; text-indent:-9999px; width:345px; height:56px; margin:260px auto auto 319px;}
+
+
+.brd_none{text-decoration:none;}
+.time{width:100px; }
+.td_top{background:#e0e0e0; color:#3c3c3c; padding:10px; font-weight:bold;}
+th{font-weight:bold;}
+.koma{width:480px;  padding-bottom:15px; margin-bottom:70px; min-height:370px;
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 9%, #f2f2f2 33%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(9%,#ffffff), color-stop(33%,#f2f2f2)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #ffffff 0%,#ffffff 9%,#f2f2f2 33%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #ffffff 0%,#ffffff 9%,#f2f2f2 33%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #ffffff 0%,#ffffff 9%,#f2f2f2 33%); /* IE10+ */
+background: linear-gradient(to bottom, #ffffff 0%,#ffffff 9%,#f2f2f2 33%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-9 */
+}
+.koma{
+-moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+border-radius: 20px;
+/*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+}
+
+
+.koma p{padding:0 15px;}
+.koma p img{padding-top:15px;}
+h5{background:url(../../images/news/20141101/bar_black.jpg) no-repeat; width:480px; height:48px; color:#fff; text-align:center; padding-left:0; font-size:16px; padding-top:15px;}
+.event{background:url(../../images/news/20141101/bar_red.jpg) no-repeat; width:480px; height:48px;}
+.p_back{margin:15px; padding:15px; background:#fff; line-height:1.8em;}
+.title_tenji{background:url(../../images/news/20141101/bar_midashi.jpg) no-repeat; width:980px; height:55px; margin-bottom:20px;}
+.title_tenji2{background:url(../../images/news/20141101/bar_midashi.jpg) no-repeat; width:980px; height:55px; margin-bottom:20px;margin-top:70px;}
+.title_tenji h4{font-size:large; padding-top:20px; padding-left:20px;}
+.title_tenji2 h4{font-size:large; padding-top:20px; padding-left:20px;}
+
+tr{border-top:1px dotted #3c3c3c;}
+th{background: #E0E0E0; color:#3c3c3c; }
+.brd_btm{border-bottom:1px dotted #3c3c3c;}
+
+.bnr{text-align:center; margin:0px auto;}

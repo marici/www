@@ -1,0 +1,45 @@
+/*--all--------------------------------------------------------------------------------------------------------------------------*/
+#all{}
+
+
+/*--contents--------------------------------------------------------------------------------------------------------------------------*/
+
+#part_01{background:url(images/bg_main.png) repeat-x; height:380px;}
+#part_01  #lace{background:url(images/bg_lace.png) repeat-x; height:50px;}
+#contents{ background:url(images/bg_patarn.png) repeat; }
+#contents #cont_all{ width:980px; margin:0px auto; text-align:center;}
+
+#part_02{background:url(images/img_02about.png) no-repeat;height:160px;}
+#part_03{background:url(images/img_03title.png) no-repeat;height:128px;}
+#part_04{background:url(images/img_04staff.png) no-repeat;height:285px;}
+#part_05{background:url(images/img_05end.png)no-repeat;height:201px;}
+#part_06{background:url(images/img_06title.png) no-repeat;height:92px;}
+#part_07{background:url(images/img_07.png) no-repeat;height:314px;}
+#part_08{background:url(images/img_08.png) no-repeat;height:317px;}
+#part_09{background:url(images/img_09.png)no-repeat;height:606px;}
+#part_10{background:url(images/img_10.png)no-repeat;height:329px;}
+#part_11{background:url(images/img_11.png)no-repeat;height:349px;}
+#part_12{background:url(images/img_12.png)no-repeat;height:300px;}
+#part_13{background:url(images/img_13.png)no-repeat;height:493px;}
+#part_14{background:url(images/img_14end.png)no-repeat;height:201px;}
+#part_15{background:url(images/img_15title.png)no-repeat;height:122px;}
+#part_16{background:url(images/img_16q1.png)no-repeat;height:80px;}
+#part_17{background:url(images/img_17q2.png)no-repeat;height:92px;}
+#part_18{background:url(images/img_18q3.png)no-repeat;height:92px;}
+#part_19{background:url(images/img_19.png)no-repeat;height:64px;}
+#part_19 p{font-size:large; text-align:left; padding-left:110px; padding-top:10px;}
+#part_20{background:url(images/img_20.png)no-repeat;height:76px;}
+#part_20 p{font-size:large; text-align:left; padding-left:110px; padding-top:25px;}
+#part_21{background:url(images/img_21title.png)no-repeat;height:121px;}
+#part_22{background:url(images/img_22.png)no-repeat;height:80px;}
+#part_btn a{ display:block;background:url(images/btn_of.png)no-repeat;height:142px; width:471px; margin:50px auto;}
+#part_btn a:hover{ display:block;background:url(images/btn_on.png)no-repeat;height:142px; width:471px; margin:50px auto;}
+#part_23{background:url(images/img_23.png)no-repeat; width:147px;height:42px;}
+
+footer{background-color:#000000; color:#ffffff;}
+footer .copy{padding:50px 0;}
+footer .copy a{color:#ffffff;}
+#part_24 a{color:#ffffff;}
+#part_24{width:980px; margin:0px auto; text-align:center;}
+#part_24 p{ text-align:left; padding:50px 0; line-height:2em;}
+#part_24 img{margin-left:30px;}

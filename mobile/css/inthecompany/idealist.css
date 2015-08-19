@@ -1,0 +1,13 @@
+#contents{margin-bottom:20px; margin-top:0px;}
+#contents ul li{display:block; padding:20px; border-bottom:1px dotted #A7A7A7; text-align:left; min-height:70px;}
+#contents ul li p{display:block; float:left;}
+#contents ul li a{display:block; width:100%;height:80px;}
+#contents ul li:after   {  
+    content: ".";  
+    display: block;  
+    visibility: hidden;  
+    height: 0.1px;  
+    font-size: 0.1em;  
+    line-height: 0;  
+    clear: both;  
+}  

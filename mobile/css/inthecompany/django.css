@@ -1,0 +1,13 @@
+#contents{margin:20px auto; max-width:90%;}
+#contents #img_main{text-align:center; margin-bottom:20px;}
+#contents p{margin-bottom:20px;}
+#contents ul{display:block; background:#F3F3F3; padding:10px; margin-bottom:10px;}
+#contents li{color:#ff0000;}
+#contents #btn_service{margin:10px auto 20px auto; text-align:center;  max-width:50%;}
+#contents #btn_service a{display:block; background-color:#dd4b13; color:#ffffff; padding:10px; margin-bottom:20px; font-size:small;
+background-color:#dd4b13;
+	-webkit-border-radius: 10;
+	-moz-border-radius: 10;
+	border-radius: 10px;
+	text-decoration: none;
+	 border:none;}

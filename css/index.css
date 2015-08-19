@@ -1,3 +1,5 @@
+p{line-height:1.3em;}
+
 /*--slide--------------------------------------------------------------------------------------------------------------------------*/
 #area_slideall{background:url(../images/top/bg_slide.jpg) repeat-x; height:374px;}
 #area_slide{width:980px; margin:0px auto;}
@@ -12,14 +14,15 @@
 .title_tr h2{text-indent:-9999px;}
 .area_trackrecord{background:url(../images/top/bg_trackrecord.png) no-repeat; width:647px; height:383px;}
 .tr{padding-top:22px; padding-left:28px; padding-right:25px;}
-.parts_tr1{width:190px; /*height:160px;*/ background-color:#f8f8f8; padding:15px 0; float:left; margin-right:10px; margin-bottom:10px;}
-.parts_tr2{width:190px; /*height:160px;*/ background-color:#f8f8f8; padding:15px 0; float:left;margin-bottom:10px;}
-.parts_tr3{width:190px; /*height:160px;*/ background-color:#f8f8f8; padding:15px 0; float:left; margin-right:10px;}
-.parts_tr4{width:190px; /*height:160px;*/ background-color:#f8f8f8; padding:15px 0; float:left;}
+.parts_tr1{width:190px; min-height:130px; background-color:#f8f8f8; padding:15px 0; float:left; margin-right:10px; margin-bottom:10px;}
+.parts_tr2{width:190px; min-height:130px; background-color:#f8f8f8; padding:15px 0; float:left;margin-bottom:10px;}
+.parts_tr3{width:190px; min-height:130px; background-color:#f8f8f8; padding:15px 0; float:left; margin-right:10px;}
+.parts_tr4{width:190px; min-height:130px; background-color:#f8f8f8; padding:15px 0; float:left;}
 .parts_tr_contents{width:155px; margin:0 19px; float:left;}
 .tr p{padding-top:10px;}
 .tr_list{background:url(../images/top/btn_list.gif) no-repeat; width:84px; height:16px; margin-left:555px; margin-top:-12px;}
 .tr_list a{display:block; width:84px; height:16px; text-indent:-9999px;}
+.letter-space{letter-spacing:-0.1em;}
 
 /*--news--------------------------------------------------------------------------------------------------------------------------*/
 #area_news{width:313px; height:422px; float:right;}
@@ -34,4 +37,4 @@ iframe{margin:0 auto 20px 25px;}
 /*--bnr--------------------------------------------------------------------------------------------------------------------------*/
 #area_bnr{margin-top:30px;}
 .left_bnr{float:left;}
-.right_bnr{float:right;}
+.margin_r_20{margin-right:20px;}
